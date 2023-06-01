@@ -89,8 +89,89 @@ let questions = [
     question: "Vad innebär begreppet 'rättsstat'?",
     options: ["Ett samhälle där alla handlingar och beslut är baserade på lag", "Ett samhälle där rättsliga beslut baseras på en ledares vilja", "Ett samhälle där kriminaliteten är låg", "Ett samhälle där det finns många advokater"],
     answer: 0
-}
+},
     // add more questions as needed
+
+{
+    question: "Vad reglerar successionsordningen?",
+    options: ["Svenska tronföljden och kungliga familjens ställning", "Svenska lagar och regler", "Riksdagens arbetsordning", "Stadgar för offentliga myndigheter"],
+    answer: 0
+},
+{
+    question: "Vilken av följande rättigheter är grundlagsskyddad i Sverige?",
+    options: ["Rätten att bilda och vara medlem i föreningar", "Rätten att resa fritt över landets gränser", "Rätten att rösta i amerikanska presidentval", "Rätten att inneha vapen"],
+    answer: 0
+},
+{
+    question: "Hur ändras en grundlag i Sverige?",
+    options: ["Genom folkomröstning", "Genom riksdagens beslut", "Genom en domstolsbeslut", "Genom kungens beslut"],
+    answer: 1
+},
+{
+    question: "Ge exempel på tre grundlagsskyddade fri- och rättigheter",
+    options: ["Rätten att vara fri från tortyr, rätten till en rättvis rättegång, yttrandefrihet", "Rätten att rösta, rätten att resa, rätten att arbeta", "Rätten att äga fastighet, rätten att utöva religion, rätten att få utbildning", "Rätten att äta, rätten att sova, rätten att skratta"],
+    answer: 0
+},
+{
+    question: "Vad innebär offentlighetsprincipen?",
+    options: ["Allmänheten har rätt att få tillgång till information och handlingar som finns hos offentliga myndigheter", "Offentliga tjänstemän måste alltid bära uniform", "Alla regeringsmöten ska sändas på TV", "Alla dokument måste publiceras på internet"],
+    answer: 0
+},
+{
+    question: "Vad betyder meddelarfrihet?",
+    options: ["Rätten att sprida information utan censur", "Rätten för anställda inom offentlig verksamhet att lämna uppgifter om missförhållanden utan att bli utsatta för repressalier", "Rätten att säga vad man tycker på sociala medier", "Rätten att kritisera regeringen"],
+    answer: 1
+},
+{
+    question: "Vad innebär förbudet mot ministerstyre som vi har i Sverige?",
+    options: ["Ministrar får inte ändra beslut som har fattats av riksdagen", "Ministrar får inte direkt påverka eller styra beslut eller hantering av ärenden inom en myndighet", "Ministrar får inte besöka myndigheter", "Ministrar får inte tala offentligt om sina åsikter"],
+    answer: 1
+},
+{
+    question: "Vilka principer är utgångspunkten för värdegrunden i offentlig förvaltning i Sverige?",
+    options: ["Ärlighet, Öppenhet, Ansvar", "Effektivitet, Noggrannhet, Struktur", "Tolerans, Mångfald, Respekt", "Demokrati, Rättssäkerhet, Effektivitet"],
+    answer: 3
+},
+{
+question: "Vem är Sveriges statschef?",
+options: ["Statsministern", "Kungen", "Talmannen", "Regeringschefen"],
+answer: 1
+},
+{
+question: "Vad innebär Sveriges 'nattväktarstat'?",
+options: ["Polisen patrullerar på natten", "Staten har bara ansvar för försvar, polis och rättsväsende", "All offentlig verksamhet stänger vid midnatt", "Staten övervakar medborgare dygnet runt"],
+answer: 1
+},
+{
+question: "Vilket parti har flest mandat i riksdagen just nu?",
+options: ["Socialdemokraterna", "Moderaterna", "Miljöpartiet", "Vänsterpartiet"],
+answer: ["Depends on the current political situation, please update accordingly"]
+},
+{
+question: "Vad är en motion i riksdagen?",
+options: ["En begäran om riksdagens ställningstagande", "En lagförslag", "En anmälan om misstanke om brott", "En begäran om att riksdagen ska upplösas"],
+answer: 0
+},
+{
+question: "Vem väljer Sveriges statsminister?",
+options: ["Riksdagen", "Kungen", "Folket direkt i allmänna val", "Regeringen"],
+answer: 0
+},
+{
+question: "Vilken är den högsta juridiska instansen i Sverige?",
+options: ["Riksdagen", "Regeringen", "Högsta domstolen", "Justitiekanslern"],
+answer: 2
+},
+{
+question: "Vad innebär det att Sverige är en konstitutionell monarki?",
+options: ["Kungen är landets högsta politiska ledare", "Kungen har bara ceremoniella uppgifter", "Kungen styr landet tillsammans med regeringen", "Kungen kan fatta beslut om lagar och regler"],
+answer: 1
+},
+{
+question: "Vad är ett kammarsystem?",
+options: ["Ett system där olika lagförslag debatteras", "Ett system där politiker delas upp i olika grupper", "Ett system för att dela upp riksdagen i mindre grupper", "Ett system där riksdagens arbete är uppdelat i två delar eller 'kammare'"],
+answer: 3
+}
 ];
 
 let score = 0;
