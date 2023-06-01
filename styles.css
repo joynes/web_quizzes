@@ -7,7 +7,7 @@ body {
 }
 
 .score {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .question {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -32,8 +32,8 @@ body {
 }
 
 .options button {
-    padding: 10px;
-    font-size: 18px;
+    padding: 20px;
+    font-size: 24px;
     color: #fff;
     background-color: #007BFF;
     border: none;
@@ -45,22 +45,10 @@ body {
     background-color: #0056b3;
 }
 
-/* Styles for screen sizes 600px and below */
-@media only screen and (max-width: 600px) {
-    .score {
-        font-size: 20px;
-    }
-
-    .quiz {
-        padding: 15px;
-    }
-
-    .question {
-        font-size: 18px;
-    }
-
-    .options button {
-        padding: 8px;
-        font-size: 16px;
-    }
+.version {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #666;
 }
