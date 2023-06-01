@@ -187,6 +187,38 @@ question: "Vad innebär det att Sverige är en 'välfärdsstat'?",
 options: ["Alla medborgare får ekonomiskt stöd av staten", "Staten har ett utbrett socialt skyddsnät och erbjuder omfattande offentliga tjänster", "Staten tar hand om alla sjuka och gamla", "Ingen får tjäna mer än en viss summa pengar"],
 answer: 1
 },
+
+{
+    question: "Vad reglerar Successionsordningen?",
+    options: ["Den svenska skolordningen", "Den svenska tronföljden och den kungliga familjens ställning", "Svensk kommunallag", "Svenska strafflagen"],
+    answer: 1
+},
+{
+    question: "Vilka är tre exempel på grundlagsskyddade fri- och rättigheter?",
+    options: ["Informationsfrihet, rättssäkerhet, skydd mot diskriminering", "Rätten att köra bil, rätten att resa, rätten att jobba", "Rätten att vara ledig på helger, rätten till semester, rätten till sjukvård", "Rätten till skolgång, rätten att rösta, rätten till pension"],
+    answer: 0
+},
+{
+    question: "Hur ändrar man en grundlag i Sverige?",
+    options: ["Genom en folkomröstning", "Genom ett beslut av kungen", "Genom ett beslut av regeringen", "Genom två beslut av riksdagen, med ett allmänt val emellan"],
+    answer: 3
+},
+{
+    question: "Vad innebär offentlighetsprincipen?",
+    options: ["Att allmänheten har rätt att få tillgång till information och handlingar som finns hos offentliga myndigheter", "Att offentliga byggnader måste vara öppna för allmänheten", "Att alla offentliga sammanträden måste sändas på TV", "Att alla offentliga tjänstemän måste ge intervjuer till pressen"],
+    answer: 0
+},
+{
+    question: "I vilken lag regleras meddelarfriheten i Sverige?",
+    options: ["I regeringsformen", "I tryckfrihetsförordningen", "I lagen om offentlig upphandling", "I lagen om skydd för den som slår larm om allvarliga missförhållanden"],
+    answer: 3
+},
+{
+    question: "Vad innebär förbudet mot ministerstyre?",
+    options: ["Att ministrar inte får ta semester", "Att ministrar inte får ge direktiv till myndigheter om hur de ska hantera enskilda ärenden", "Att ministrar inte får prata med pressen", "Att ministrar inte får rösta i riksdagen"],
+    answer: 1
+},
+   
 ];
 
 let score = 0;
