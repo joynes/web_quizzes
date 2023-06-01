@@ -137,19 +137,21 @@ function showQuestion() {
 
 function checkAnswer(index) {
     if (index === questions[currentQuestion].answer) {
+        alert('Yes! Correct answer: ' + questions[currentQuestion].answer);
         score++;
         currentQuestion++;
         showQuestion();
     } else {
-        alert('Wrong answer! Please try again.');
+        alert('No! Wrong: ' + questions[currentQuestion].answer);
         if (score > 0)
           score--;
+        showQuestion();
     }
 }
 
 function showScore() {
     let scoreElement = document.getElementById("score");
-    scoreElement.textContent = `Score: ${score}`;
+    scoreElement.textContent = `Nr ${currentQuestion}/${questions.length}  ------  Score: ${score}`;
 }
 
 function showFinalScore() {
