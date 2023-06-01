@@ -218,6 +218,42 @@ answer: 1
     options: ["Att ministrar inte får ta semester", "Att ministrar inte får ge direktiv till myndigheter om hur de ska hantera enskilda ärenden", "Att ministrar inte får prata med pressen", "Att ministrar inte får rösta i riksdagen"],
     answer: 1
 },
+
+{
+    question: "Vad reglerar Successionsordningen i Sverige?",
+    options: ["Den svenska tronföljden och den kungliga familjens ställning", "Sveriges statsministers befogenheter", "Sveriges utrikespolitik", "Sveriges ekonomi"],
+    answer: 0
+},
+{
+    question: "Vilken rättighet ger individen frihet att fritt uttrycka åsikter, kritisera makthavare och delta i samhällsdebatten?",
+    options: ["Religionsfrihet", "Informationsfrihet", "Yttrandefrihet", "Demonstrationsfrihet"],
+    answer: 2
+},
+{
+    question: "Hur initieras en ändring av en grundlag i Sverige?",
+    options: ["Genom en folkomröstning", "Genom ett förslag av regeringen, riksdagen eller en medborgarförening", "Genom ett domstolsbeslut", "Genom en kunglig förordning"],
+    answer: 1
+},
+{
+    question: "Vad innebär offentlighetsprincipen?",
+    options: ["Allmänhetens rätt att få tillgång till information och handlingar som finns hos offentliga myndigheter", "Allmänhetens rätt att offentligt kritisera regeringen", "Myndigheternas rätt att hålla information hemlig", "Allmänhetens rätt att rösta i allmänna val"],
+    answer: 0
+},
+{
+    question: "Vad innebär förbudet mot ministerstyre i Sverige?",
+    options: ["Det är förbjudet för ministrar att delta i riksdagens arbete", "Det är förbjudet för ministrar att påverka eller styra beslut inom en myndighet", "Det är förbjudet för ministrar att ändra lagar", "Det är förbjudet för ministrar att lämna landet utan tillstånd"],
+    answer: 1
+},
+{
+    question: "Vilka principer är utgångspunkten för värdegrunden i offentlig förvaltning?",
+    options: ["Laglighet, objektivitet, saklighet, rättssäkerhet, likabehandling, icke-diskriminering, öppenhet, transparens, effektivitet, service", "Konfidentialitet, integritet, ansvar, professionalism, respekt", "Ekonomisk tillväxt, produktivitet, lönsamhet, konkurrens", "Partipolitiska lojaliteter, personligt engagemang, ekonomisk tillväxt"],
+    answer: 0
+},
+{
+    question: "Vad innebär kravet på effektivitet och service inom offentlig förvaltning?",
+    options: ["Förvaltningen ska anstränga sig att använda sina resurser effektivt och leverera högkvalitativa tjänster till medborgarna", "Förvaltningen ska sätta winst och ekonomisk tillväxt först", "Förvaltningen ska prioritera att ge service till de mest förmögna medborgarna", "Förvaltningen ska sträva efter att anställa så många människor som möjligt"],
+    answer: 0
+}
    
 ];
 
