@@ -34,25 +34,84 @@ let questions = [
         options: ["200 kommuner och 18 regioner", "220 kommuner och 20 regioner", "290 kommuner och 21 regioner", "300 kommuner och 25 regioner"],
         answer: 2
     },
+
+{
+    question: "Vad innebär demokrati?",
+    options: ["Styrelseform där makten ligger hos en enda person", "Styrelseform där makten ligger hos en liten grupp", "Styrelseform där makten ligger hos folket", "Styrelseform där makten ligger hos en monark"],
+    answer: 2
+},
+{
+    question: "I vilken lag finns formuleringen att all makt utgår ifrån folket?",
+    options: ["I brottsbalken", "I förvaltningslagen", "I regeringsformen", "I tryckfrihetsförordningen"],
+    answer: 2
+},
+{
+    question: "Hur styrs Sverige?",
+    options: ["Genom direktdemokrati", "Genom monarki", "Genom diktatur", "Genom representativ parlamentarism"],
+    answer: 3
+},
+{
+    question: "Vad innebär representativ parlamentarism?",
+    options: ["Medborgarna deltar direkt i alla politiska beslut", "Medborgarna väljer representanter till ett parlament som tar beslut och styr landet på deras vägnar", "En ensam ledare tar alla beslut", "En monark tar alla beslut"],
+    answer: 1
+},
+{
+    question: "Vad är regeringens främsta uppgifter?",
+    options: ["Styra landet, förvalta offentliga resurser, upprätthålla lag och ordning, skydda nationens intressen", "Bestämma skattesatser, skapa lagar, upprätthålla ordning och säkerhet", "Lägga fram budgetförslag, förhandla med andra länder, upprätthålla säkerheten", "Skydda medborgarnas rättigheter, bestämma räntan, fördela offentliga medel"],
+    answer: 0
+},
+{
+    question: "Vad kännetecknar offentlig förvaltning?",
+    options: ["Rättslig verksamhet, faktisk verksamhet", "Kommersiell verksamhet, faktisk verksamhet", "Faktisk verksamhet, politisk verksamhet", "Inget av ovanstående"],
+    answer: 0
+},
+{
+    question: "Vad är en norm?",
+    options: ["En lag", "En skriven regel", "En oskriven regel eller standard som styr och påverkar beteendet och förväntningarna i ett samhälle eller en grupp", "En politisk ideologi"],
+    answer: 2
+},
+{
+    question: "Vilka är Sveriges grundlagar?",
+    options: ["Regeringsformen, Tryckfrihetsförordningen, Yttrandefrihetsgrundlagen, Successionsordningen", "Regeringsformen, Strafflagen, Civilrätten, Successionsordningen", "Regeringsformen, Tryckfrihetsförordningen, Konsumenträtten, Successionsordningen", "Regeringsformen, Tryckfrihetsförordningen, Yttrandefrihetsgrundlagen, Äktenskapsbalken"],
+    answer: 0
+},
+{
+    question: "Vad är en folkomröstning?",
+    options: ["En process där alla röstberättigade medborgare i en nation röstar om ett specifikt ämne eller en fråga", "En process där alla ledamöter av riksdagen röstar om ett specifikt ämne eller en fråga", "En process där regeringen röstar om ett specifikt ämne eller en fråga", "En process där kungen röstar om ett specifikt ämne eller en fråga"],
+    answer: 0
+},
+{
+    question: "Vad är välfärd?",
+    options: ["Rikedom och ekonomiskt välstånd", "En individ eller ett samhälles hälsa, lycka och förmåga att blomstra", "Politisk stabilitet", "Ett annat namn för regeringen"],
+    answer: 1
+},
+{
+    question: "Vad innebär begreppet 'rättsstat'?",
+    options: ["Ett samhälle där alla handlingar och beslut är baserade på lag", "Ett samhälle där rättsliga beslut baseras på en ledares vilja", "Ett samhälle där kriminaliteten är låg", "Ett samhälle där det finns många advokater"],
+    answer: 0
+}
     // add more questions as needed
 ];
-
-// Randomize the options and update the answer index
-questions.forEach(question => {
-    let correctOption = question.options[question.answer];
-    question.options.sort(() => Math.random() - 0.5);
-    question.answer = question.options.indexOf(correctOption);
-});
-
-// Randomize the questions
-questions.sort(() => Math.random() - 0.5);
 
 let score = 0;
 let currentQuestion = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
+    shuffleQuestions();
     showQuestion();
 });
+
+function shuffleQuestions() {
+    // Randomize the options and update the answer index
+    questions.forEach(question => {
+        let correctOption = question.options[question.answer];
+        question.options.sort(() => Math.random() - 0.5);
+        question.answer = question.options.indexOf(correctOption);
+    });
+
+    // Randomize the questions
+    questions.sort(() => Math.random() - 0.5);
+}
 
 function showQuestion() {
     if (currentQuestion >= questions.length) {
@@ -83,6 +142,8 @@ function checkAnswer(index) {
         showQuestion();
     } else {
         alert('Wrong answer! Please try again.');
+        if (score > 0)
+          score--;
     }
 }
 
@@ -93,5 +154,13 @@ function showScore() {
 
 function showFinalScore() {
     let quizElement = document.getElementById("quiz");
-    quizElement.innerHTML = `<h2>Game Over! Your final score is: ${score}/${questions.length}</h2>`;
+    quizElement.innerHTML = `<h2>Game Over! Your final score is: ${score}/${questions.length}</h2>
+    <button onclick="restartGame()">Restart Game</button>`;
+}
+
+function restartGame() {
+    score = 0;
+    currentQuestion = 0;
+    shuffleQuestions();
+    showQuestion();
 }
