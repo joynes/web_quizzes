@@ -143,11 +143,6 @@ options: ["Polisen patrullerar på natten", "Staten har bara ansvar för försva
 answer: 1
 },
 {
-question: "Vilket parti har flest mandat i riksdagen just nu?",
-options: ["Socialdemokraterna", "Moderaterna", "Miljöpartiet", "Vänsterpartiet"],
-answer: ["Depends on the current political situation, please update accordingly"]
-},
-{
 question: "Vad är en motion i riksdagen?",
 options: ["En begäran om riksdagens ställningstagande", "En lagförslag", "En anmälan om misstanke om brott", "En begäran om att riksdagen ska upplösas"],
 answer: 0
@@ -171,7 +166,27 @@ answer: 1
 question: "Vad är ett kammarsystem?",
 options: ["Ett system där olika lagförslag debatteras", "Ett system där politiker delas upp i olika grupper", "Ett system för att dela upp riksdagen i mindre grupper", "Ett system där riksdagens arbete är uppdelat i två delar eller 'kammare'"],
 answer: 3
-}
+},
+{
+question: "Vilket år inträdde Sverige i Europeiska Unionen?",
+options: ["1995", "2000", "1991", "1986"],
+answer: 0
+},
+{
+question: "Vad innebär begreppet 'Allemansrätten'?",
+options: ["Rätt att röra sig fritt i naturen och att tillfälligt uppehålla sig där", "Rätt att äga mark", "Rätt att bygga var som helst i Sverige", "Rätt att använda någon annans mark för kommersiella ändamål"],
+answer: 0
+},
+{
+question: "Vad innebär det att en lag är 'grundlagsfäst' i Sverige?",
+options: ["Lagen kan inte ändras", "Lagen är inskriven i Sveriges grundlag", "Lagen har stöd av alla partier i riksdagen", "Lagen gäller bara för svenska medborgare"],
+answer: 1
+},
+{
+question: "Vad innebär det att Sverige är en 'välfärdsstat'?",
+options: ["Alla medborgare får ekonomiskt stöd av staten", "Staten har ett utbrett socialt skyddsnät och erbjuder omfattande offentliga tjänster", "Staten tar hand om alla sjuka och gamla", "Ingen får tjäna mer än en viss summa pengar"],
+answer: 1
+},
 ];
 
 let score = 0;
