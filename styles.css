@@ -7,7 +7,7 @@ body {
 }
 
 .score {
-    font-size: 3vh;
+    font-size: 2vh;
     margin-bottom: 20px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .question {
-    font-size: 5vh;
+    font-size: 3vh;
     margin-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .options button {
     padding: 20px;
-    font-size: 4vh;
+    font-size: 3vh;
     color: #fff;
     background-color: #007BFF;
     border: none;
