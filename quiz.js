@@ -589,6 +589,55 @@ answer: 1
     "answer": 2
 }
     ],
+ [
+
+{
+    "question": "Vilken domstol skulle ta upp ett ärende om en tvist mellan två individer angående fastighetsgränser?",
+    "options": ["Förvaltningsrätten", "Högsta förvaltningsdomstolen", "Tingsrätten", "Högsta domstolen"],
+    "answer": 2
+},
+{
+    "question": "Vilken domstol kan en person överklaga till om hen anser att Skatteverkets beslut om skattesatsen eller skatteavdraget inte är rättvist?",
+    "options": ["Högsta domstolen", "Hovrätten", "Tingsrätten", "Förvaltningsrätten"],
+    "answer": 3
+},
+{
+    "question": "Hur länge har Sverige haft en offentlig förvaltning?",
+    "options": ["Över 500 år", "Över 200 år", "Över 100 år", "Över 50 år"],
+    "answer": 1
+},
+{
+    "question": "När kan spåras den moderna svenska offentliga förvaltningen tillbaka till?",
+    "options": ["1909", "1809", "1709", "1609"],
+    "answer": 1
+},
+{
+    "question": "Vilken av följande uppgifter tillhör offentlig förvaltning?",
+    "options": ["Undervisning", "Utrikespolitik", "Stifta lagar", "Döma i brottmål"],
+    "answer": 0
+},
+
+{
+    "question": "Vilken domstol skulle granska ett överklagat ärende från förvaltningsrätten?",
+    "options": ["Högsta domstolen", "Hovrätten", "Tingsrätten", "Kammarrätten"],
+    "answer": 3
+},
+{
+    "question": "Vad skulle ske om någon var missnöjd med beslutet från kammarrätten?",
+    "options": ["Ärendet skulle gå tillbaka till förvaltningsrätten", "Ärendet skulle gå till tingsrätten", "Ärendet skulle gå till Högsta förvaltningsdomstolen", "Ärendet skulle gå till Högsta domstolen"],
+    "answer": 2
+},
+{
+    "question": "Vilket av följande är ett exempel på rättslig verksamhet inom offentlig förvaltning?",
+    "options": ["Undervisning", "Ärendehandläggning vid Försäkringskassan", "Byggande och underhåll av gator", "Transportverksamhet"],
+    "answer": 1
+},
+{
+    "question": "Vilket av följande är ett exempel på faktisk verksamhet inom offentlig förvaltning?",
+    "options": ["Brottsbekämpning", "Ärendehandläggning vid Skatteverket", "Undervisning", "Stiftande av lagar"],
+    "answer": 2
+}
+  ] 
 ];
 
 let score = 0;
