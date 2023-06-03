@@ -6,6 +6,38 @@ body {
     padding: 20px;
 }
 
+
+#menu {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#stages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+#stages button {
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stages button:hover {
+    background-color: #0056b3;
+}
+
 .score {
     font-size: 20px;
     margin-bottom: 20px;

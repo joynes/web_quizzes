@@ -436,12 +436,94 @@ answer: 1
         "options": ["Att följa lagen och behandla alla ärenden och personer på samma sätt", "Att bryta lagen för att uppnå personliga mål", "Att behandla ärenden och personer baserat på personliga preferenser", "Att behandla ärenden och personer baserat på social status"],
         "answer": 0
     }
-]
+],
+  [
+
+{
+    "question": "Vad betyder ordet demokrati?",
+    "options": ["En form av monarki", "En styrelseform där makten ligger hos folket", "En styrelseform där en enda person har all makt", "En styrelseform där religionen styr"],
+    "answer": 1
+},
+{
+    "question": "Vad innebär det att all makt utgår ifrån folket? Och i vilken lag finns den formuleringen?",
+    "options": ["Det innebär att det är kungen som har all makt, finns i Sveriges konstitution", "Det innebär att det är medborgarna som är den högsta auktoriteten, finns i den svenska regeringsformen", "Det innebär att det är regeringen som har all makt, finns i den amerikanska konstitutionen", "Det innebär att all makt utgår från riksdagen, finns i Sveriges konstitution"],
+    "answer": 1
+},
+{
+    "question": "Varför är demokrati en färskvara?",
+    "options": ["Eftersom den måste konsumeras snabbt", "Eftersom demokratiska institutioner måste ständigt förnyas", "Eftersom den blir gammal och otidsenlig", "Eftersom den förlorar sin smak efter ett tag"],
+    "answer": 1
+},
+{
+    "question": "Hur styrs Sverige?",
+    "options": ["Genom en diktatur", "Genom en monarki", "Genom representativ parlamentarism", "Genom direkt demokrati"],
+    "answer": 2
+},
+{
+    "question": "Vad innebär representativ parlamentarism?",
+    "options": ["Medborgarna väljer en kung att styra", "Medborgarna väljer representanter till ett parlament som tar beslut på deras vägnar", "Regeringen tar alla beslut utan inblandning av medborgarna", "Medborgarna röstar direkt på alla lagar och beslut"],
+    "answer": 1
+},
+
+{
+    "question": "Vad händer i en demokrati om regeringen inte agerar i enlighet med folkets vilja?",
+    "options": ["Regeringen kan avsättas i nästa val", "Regeringen kan bli avsatt omedelbart", "Folket kan inte göra något åt det", "Regeringen måste betala böter"],
+    "answer": 0
+},
+{
+    "question": "Var hittar man formuleringen 'All offentlig makt i Sverige utgår från folket'?",
+    "options": ["I den svenska regeringsformen, 1 kap. 1§", "I den svenska konstitutionen", "I den amerikanska konstitutionen", "I EU:s grundlag"],
+    "answer": 0
+},
+{
+    "question": "Varför behöver demokratiska principer och institutioner utmanas och förnyas regelbundet?",
+    "options": ["För att passa in i det moderna samhället", "För att undvika att demokratin eroderar och ersätts av auktoritära eller totalitära system", "För att människor tröttnar på gamla idéer", "För att det är en del av demokratins definition"],
+    "answer": 1
+},
+{
+    "question": "Vem väljer medborgarna i en representativ parlamentarism?",
+    "options": ["Representanter till en kung", "Representanter till ett parlament", "En president", "En diktator"],
+    "answer": 1
+},
+{
+    "question": "Vad gör de valda representanterna i en representativ parlamentarism?",
+    "options": ["De utövar all makt utan insyn", "De tar beslut och styr landet på medborgarnas vägnar", "De avgör vilka lagar som ska röstas om av folket", "De styr över alla religiösa institutioner"],
+    "answer": 1
+},
+
+{
+    "question": "Vilken roll spelar medborgarna i en demokrati?",
+    "options": ["De spelar ingen roll", "De får utse makten genom att välja sina representanter", "De fungerar endast som rådgivare till regeringen", "De implementerar lagarna"],
+    "answer": 1
+},
+{
+    "question": "I vilken lagstiftning sägs det att 'All offentlig makt i Sverige utgår från folket'?",
+    "options": ["I den svenska konstitutionen", "I EU:s grundlag", "I den amerikanska konstitutionen", "I den svenska regeringsformen"],
+    "answer": 3
+},
+{
+    "question": "Varför kan demokrati betraktas som en färskvara?",
+    "options": ["För att den behöver förnyas ständigt", "För att den har ett utgångsdatum", "För att den kan bli omodern", "För att den kan skadas av dåligt väder"],
+    "answer": 0
+},
+{
+    "question": "Vilken typ av regeringssystem använder Sverige?",
+    "options": ["Direkt demokrati", "Representativ parlamentarism", "Konstitutionell monarki", "Autokrati"],
+    "answer": 1
+},
+{
+    "question": "Vad innebär det att leva under en representativ parlamentarism?",
+    "options": ["Medborgarna väljer direkt på alla lagar och beslut", "Regeringen tar alla beslut utan inblandning av medborgarna", "Medborgarna väljer representanter till ett parlament som tar beslut på deras vägnar", "All makt ligger hos en kung eller drottning"],
+    "answer": 2
+}
+
+  ]
 ];
 
 let score = 0;
 let currentStage = null;
 let currentQuestion = 0;
+let completedStages = JSON.parse(localStorage.getItem("completedStages")) || {};
 
 document.addEventListener('DOMContentLoaded', () => {
     showMenu();
@@ -482,7 +564,7 @@ function shuffleQuestions(questions) {
 
 function showQuestion(questions) {
     if (currentQuestion >= questions.length) {
-        showFinalScores(currentStage);
+        showFinalScore(currentStage);
         return;
     }
 
