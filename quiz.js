@@ -637,7 +637,61 @@ answer: 1
     "options": ["Brottsbekämpning", "Ärendehandläggning vid Skatteverket", "Undervisning", "Stiftande av lagar"],
     "answer": 2
 }
-  ] 
+  ],
+  [
+
+{
+    "question": "Hur styrs Sveriges myndigheter?",
+    "options": ["Via kommunfullmäktige", "Via riksdagen", "Genom ministerstyre", "Genom regleringsbrev och instruktioner från regeringen"],
+    "answer": 3
+},
+{
+    "question": "Vad är ministerstyre?",
+    "options": ["Ett system där politiskt tillsatta personer påverkar ärenden hos myndigheter", "Ett system där ministrar styr direkt över tingsrätter", "Ett system där ministrar övervakar kommunfullmäktige", "Ett system där ministrar har makt att ändra regleringsbrev"],
+    "answer": 0
+},
+{
+    "question": "Hur många kommuner finns det i Sverige?",
+    "options": ["100", "250", "290", "350"],
+    "answer": 2
+},
+{
+    "question": "Vad är en viktig skillnad mellan offentlig sektor och privat sektor i Sverige gällande ägande och drift?",
+    "options": ["Båda ägs och drivs av privata företag", "Offentlig sektor ägs av staten och drivs av privata företag", "Offentlig sektor ägs och drivs av staten eller kommuner och landsting, medan privat sektor ägs av privata företag eller enskilda individer", "Båda ägs och drivs av staten eller kommuner och landsting"],
+    "answer": 2
+},
+{
+    "question": "Hur finansieras huvudsakligen den offentliga sektorn i Sverige?",
+    "options": ["Genom försäljning av varor och tjänster", "Genom privata investeringar", "Genom skatter och avgifter som tas ut från medborgarna", "Genom lån från internationella finansinstitut"],
+    "answer": 2
+},
+{
+    "question": "Vilken roll spelar juridiken i samspel mellan politik och förvaltning?",
+    "options": ["Den skapar ramar och regler", "Den fastställer mål och beslut", "Den genomför och verkställer beslut", "Den har ingen direkt inverkan"],
+    "answer": 0
+},
+{
+    "question": "Vilket av följande är ett kännetecken för den offentliga sektorn i Sverige jämfört med den privata sektorn?",
+    "options": ["Den strävar efter att generera vinst och maximera avkastning för aktieägarna", "Den ägs av privata företag eller enskilda individer", "Den är föremål för politisk styrning och ansvar gentemot medborgarna och deras valda representanter", "Den finansieras genom försäljning av varor och tjänster samt investeringar från privata aktörer"],
+    "answer": 2
+},
+{
+    "question": "Vad är en vanlig uppgift för den offentliga förvaltningen i Sverige?",
+    "options": ["Att generera vinst och maximera avkastning för aktieägarna", "Att följa regler och lagar som reglerar arbetsförhållanden och anställningsskydd", "Att ärendehandläggning, t.ex. hos Försäkringskassan, Skatteverket", "Att finansieras genom försäljning av varor och tjänster samt investeringar från privata aktörer"],
+    "answer": 2
+},
+{
+    "question": "Hur länge har Sverige haft en offentlig förvaltning?",
+    "options": ["Sedan 1809", "Sedan 1850", "Sedan 1900", "Sedan 1950"],
+    "answer": 0
+},
+{
+    "question": "Vilket exempel på domstol skulle hantera en tvist om fastighetsgränser mellan två individer i första instans?",
+    "options": ["Högsta förvaltningsdomstolen", "Kammarrätten", "Hovrätt", "Tingsrätt"],
+    "answer": 3
+}
+
+  ]
 ];
 
 let score = 0;
