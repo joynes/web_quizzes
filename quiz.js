@@ -515,9 +515,80 @@ answer: 1
     "question": "Vad innebär det att leva under en representativ parlamentarism?",
     "options": ["Medborgarna väljer direkt på alla lagar och beslut", "Regeringen tar alla beslut utan inblandning av medborgarna", "Medborgarna väljer representanter till ett parlament som tar beslut på deras vägnar", "All makt ligger hos en kung eller drottning"],
     "answer": 2
+},
+],
+[
+{
+    "question": "Hur ser rollerna och maktfördelningen ut mellan politiker, tjänstemän, medborgare och massmedia?",
+    "options": ["Politiker utnämner tjänstemän, medborgare övervakas av massmedia", "Tjänstemän väljs av medborgare, politiker granskas av massmedia", "Medborgare väljer politiker, tjänstemän är experter, massmedia informerar och granskar", "Massmedia väljer politiker, medborgare styr tjänstemän"],
+    "answer": 2
+},
+{
+    "question": "Vilka är regeringens främsta uppgifter?",
+    "options": ["Styra landet, förvalta offentliga resurser, upprätthålla lag och ordning, skydda nationens intressen", "Skapa nya lagar, förhandla internationella avtal, sköta lokal förvaltning", "Bestämma räntan, trycka pengar, kontrollera massmedia", "Bekämpa brott, organisera militären, bygga infrastruktur"],
+    "answer": 0
+},
+{
+    "question": "Vilka är riksdagens främsta uppgifter?",
+    "options": ["Att stifta lagar och besluta om statens utgifter och inkomster i statsbudgeten", "Att styra landet och skydda nationens intressen", "Att övervaka massmedia och bestämma vilka lagar som ska avskaffas", "Att bestämma räntan och trycka pengar"],
+    "answer": 0
+},
+{
+    "question": "Vilken roll har vår kung/kungafamilj?",
+    "options": ["De är landets politiska ledare och fattar alla beslut", "De har en mestadels ceremoniell och representativ roll", "De styr riksdagen och utnämner premiärministern", "De är ansvariga för att skapa nya lagar och för att styra militären"],
+    "answer": 1
+},
+{
+    "question": "Vem delegerar medborgare sin makt till i en demokrati?",
+    "options": ["Till tjänstemän", "Till massmedia", "Till folkvalda politiker", "Till kungafamiljen"],
+    "answer": 2
+},
+{
+    "question": "Vilken roll har tjänstemän i samhället?",
+    "options": ["De är experter och specialister", "De är beslutsfattare på olika nivåer", "De väljs av medborgarna", "De granskar politiker"],
+    "answer": 0
+},
+{
+    "question": "Vilket uppdrag har medierna?",
+    "options": ["Att informera och granska", "Att fatta politiska beslut", "Att genomföra lagar", "Att representera landet vid officiella ceremonier"],
+    "answer": 0
+},
+{
+    "question": "Vad ingår i regeringens uppdrag att skydda nationens intressen?",
+    "options": ["Att försvara landets suveränitet och förhandla med andra länder", "Att stifta lagar", "Att besluta om statens utgifter och inkomster", "Att välja politiker på olika nivåer i samhället"],
+    "answer": 0
+},
+{
+    "question": "Vilken är kungafamiljens främsta roll?",
+    "options": ["Att stifta lagar", "Att styra landet", "Att representera landet vid officiella ceremonier och evenemang", "Att fatta politiska beslut och genomföra dem"],
+    "answer": 2
+},
+{
+    "question": "Vilken roll har medborgarna i maktfördelningen?",
+    "options": ["Delegerar sin makt till folkvalda politiker", "De granskar politiker", "De tillhandahåller specialiserad kunskap", "De representerar landet vid officiella ceremonier"],
+    "answer": 0
+},
+{
+    "question": "Vad är en av de främsta uppgifterna för tjänstemän i samhället?",
+    "options": ["De bestämmer statens budget", "De är experter och specialister inom olika områden", "De väljs till olika positioner av medborgarna", "De granskar andra tjänstemän"],
+    "answer": 1
+},
+{
+    "question": "Vilken roll spelar massmedia i samhället?",
+    "options": ["De fungerar som ett verktyg för regeringen att sprida propaganda", "De tillhandahåller underhållning till medborgarna", "De har ett uppdrag att både informera och granska", "De bestämmer vilka lagar som ska stiftas"],
+    "answer": 2
+},
+{
+    "question": "Vilken är en av regeringens huvuduppgifter i förhållande till landets resurser?",
+    "options": ["De säljer landets resurser till högstbjudande", "De förvaltar offentliga resurser som budgetering, skatteintag och fördelning av resurser", "De köper resurser från andra länder", "De distribuerar alla landets resurser jämnt mellan medborgarna"],
+    "answer": 1
+},
+{
+    "question": "Vad gör kungen eller kungafamiljen i sin roll som statschef?",
+    "options": ["De stiftar lagar och beslutar om statens budget", "De styr alla aspekter av regeringen", "De representerar landet vid officiella ceremonier, statsbesök och internationella evenemang", "De granskar och godkänner alla beslut som fattas av riksdagen"],
+    "answer": 2
 }
-
-  ]
+    ],
 ];
 
 let score = 0;
