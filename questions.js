@@ -14,6 +14,19 @@ let questions2 = [
 ];
 
 let stages = [
+[
+    {
+        question: "What is the capital of England?",
+        options: ["New York", "London", "Paris", "Tokyo"],
+        answer: 1
+    },
+    {
+        question: "Who is the author of '1984'?",
+        options: ["George Orwell", "J.K. Rowling", "Stephen King", "Ernest Hemingway"],
+        answer: 0
+    },
+    // add more questions as needed
+],
   [
     {
         question: "Vilka tre områden samverkar för att forma och styra samhället?",
@@ -823,5 +836,33 @@ answer: 1
     "options": ["Fastighetsmäklartjänster", "Hälso- och sjukvårdstjänster", "Bilförsäljning", "Restaurangverksamhet"],
     "answer": 1
 }
+  ],
+  [
+
+
+{
+    "question": "Vad innebär offentlighetsprincipen?",
+    "options": ["Allmänhetens rätt att påverka politiska beslut", "Allmänhetens rätt att få tillgång till information och handlingar som finns hos offentliga myndigheter", "Offentliga myndigheters skyldighet att informera allmänheten om sina beslut", "Allmänhetens rätt att vara medlem i offentliga myndigheter"],
+    "answer": 1
+},
+{
+    "question": "Vad betyder meddelarfrihet?",
+    "options": ["Anställda inom offentlig verksamhet har rätt att lämna uppgifter om missförhållanden utan att bli utsatta för repressalier", "Alla medborgare har rätt att meddela myndigheter om brott", "Anställda har rätt att meddela sina chefer om missförhållanden på arbetsplatsen", "Allmänheten har rätt att meddela politiska ledare om deras åsikter"],
+    "answer": 0
+},
+{
+    "question": "I vilken lag regleras meddelarfriheten i Sverige?",
+    "options": ["Lag om offentlig förvaltning", "Lag om skydd för den som slår larm om allvarliga missförhållanden inom det allmänna", "Lag om anställningsskydd", "Lag om informationsfrihet"],
+    "answer": 1
+},
+{
+    "question": "Vad innebär förbudet mot ministerstyre i Sverige?",
+    "options": ["Ministrar får inte arbeta inom myndigheter", "Ministrar får inte påverka eller styra beslut inom en myndighet", "Ministrar får inte ha någon kontakt med myndigheter", "Ministrar får inte vara medlemmar i politiska partier"],
+    "answer": 1
+  },
+  ],
+  [
+
+
   ]
 ];

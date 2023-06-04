@@ -2,8 +2,9 @@
 let score = 0;
 let currentStage = null;
 let currentQuestion = 0;
-let completedStages = JSON.parse(localStorage.getItem("completedStages")) || {};
+let currentIndex = null;
 
+let bestScores = JSON.parse(localStorage.getItem("bestScores")) || {};
 document.addEventListener('DOMContentLoaded', () => {
     showMenu();
 });
@@ -13,7 +14,12 @@ function showMenu() {
   
   stages.forEach((stage, index) => {
     let button = document.createElement("button");
-    button.textContent = "Stage " + (index + 1) + " (" + "0" + "/" + stages[index].length + ")";
+    bestscore = 0
+   if (bestScores[index]) {
+        // there is a best score for this stage, so show it next to the stage
+        bestscore = bestScores[index];
+      }
+    button.textContent = "Stage " + (index + 1) + " (" + bestscore + "/" + stages[index].length + ")";
     button.addEventListener('click', () => startStage(index));
     stagesElement.appendChild(button);
   });
@@ -21,6 +27,7 @@ function showMenu() {
 
 function startStage(index) {
   currentStage = stages[index];
+  currentIndex = index;
   shuffleQuestions(currentStage);
   showQuestion(currentStage);
   
@@ -83,6 +90,10 @@ function showScore(questions) {
 }
 
 function showFinalScore(questions) {
+  if (!bestScores[currentIndex] || score > bestScores[currentIndex]) {
+    bestScores[currentIndex] = score;
+    localStorage.setItem("bestScores", JSON.stringify(bestScores));
+  }
     let quizElement = document.getElementById("quiz");
     quizElement.innerHTML = `<h2>Game Over! Your final score is: ${score}/${questions.length}</h2>
     <button onclick="restartGame()">Restart Game</button>`;
