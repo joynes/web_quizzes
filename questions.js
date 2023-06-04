@@ -862,7 +862,40 @@ answer: 1
   },
   ],
   [
-
-
+    {
+        question: "Vilka principer är utgångspunkten för värdegrunden i offentlig förvaltning?",
+        options: ["Laglighet, Objektivitet, Rättssäkerhet, Likabehandling, Öppenhet, Effektivitet", "Laglighet, Rättssäkerhet, Diskriminering, Sekretess, Effektivitet", "Objektivitet, Likabehandling, Sekretess, Öppenhet, Laglighet", "Rättssäkerhet, Diskriminering, Effektivitet, Objektivitet, Öppenhet"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär kraven på effektivitet och service i praktiken inom offentlig förvaltning?",
+        options: ["Att använda resurser effektivt, leverera högkvalitativa tjänster, optimera arbetsprocesser, tillhandahålla snabb service", "Att minimera kostnader, öka vinsten, fokusera på försäljning", "Att maximera antalet anställda, minska arbetsbelastningen, öka löner", "Att öka skatteintäkterna, minska offentliga utgifter, främja ekonomisk tillväxt"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär kraven på objektivitet och saklighet samt likhetskrav i praktiken inom offentlig förvaltning?",
+        options: ["Att fatta beslut baserat på faktiska uppgifter, vara opartiska, tillämpa en icke-diskriminerande policy", "Att fatta beslut baserat på personliga åsikter, vara opartiska, tillämpa en diskriminerande policy", "Att fatta beslut baserat på faktiska uppgifter, vara partiska, tillämpa en icke-diskriminerande policy", "Att fatta beslut baserat på personliga åsikter, vara partiska, tillämpa en diskriminerande policy"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär laglighetsprincipen i offentlig förvaltning?",
+        options: ["Att offentlig förvaltning ska grundas på lagar och följa dem", "Att offentlig förvaltning ska skapa nya lagar", "Att offentlig förvaltning inte ska följa lagar", "Att offentlig förvaltning ska kritisera lagar"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär rättssäkerhetsprincipen i offentlig förvaltning?",
+        options: ["Medborgare ska ha rätt att få sina rättigheter och skyldigheter tillgodosedda på ett rättssäkert sätt", "Medborgare ska inte ha rätt att få sina rättigheter och skyldigheter tillgodosedda", "Rättssäkerhet har ingen betydelse inom offentlig förvaltning", "Rättssäkerhet innebär rätten att bryta lagen utan konsekvenser"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär principen om likabehandling och icke-diskriminering i offentlig förvaltning?",
+        options: ["Alla människor ska behandlas lika och diskriminering på grund av kön, etnicitet, religion, funktionsnedsättning eller annan grund är förbjuden", "Diskriminering är tillåten inom offentlig förvaltning", "Endast vissa människor ska behandlas lika inom offentlig förvaltning", "Principen om likabehandling och icke-diskriminering gäller inte för offentlig förvaltning"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär öppenhets- och transparensprincipen i offentlig förvaltning?",
+        options: ["Offentlig förvaltning ska vara öppen och transparent i sin verksamhet och beslutsfattande", "Offentlig förvaltning ska vara stängd och ogenomskinlig", "Offentlig förvaltning behöver inte vara öppen eller transparent", "Öppenhet och transparens har ingen betydelse inom offentlig förvaltning"],
+        answer: 0
+    }
   ]
 ];
