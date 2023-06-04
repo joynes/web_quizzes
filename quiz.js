@@ -691,6 +691,85 @@ answer: 1
     "answer": 3
 }
 
+  ],
+  [
+
+{
+    "question": "Vad är en norm i samhällskontext?",
+    "options": ["En lag i riksdagen", "En skriftlig regel inom en organisation", "En oskriven regel som styr beteendet och förväntningarna i ett samhälle eller grupp", "En officiell regel fastställd av regeringen"],
+    "answer": 2
+},
+{
+    "question": "Vilken av följande är inte en av Sveriges grundlagar?",
+    "options": ["Regeringsformen", "Tryckfrihetsförordningen", "Yttrandefrihetsgrundlagen", "Arbetsrättslag"],
+    "answer": 3
+},
+{
+    "question": "Vilken rättighet skyddas av Tryckfrihetsförordningen?",
+    "options": ["Rätten att fritt utöva sin religion eller tro", "Rätten att fritt publicera och sprida information utan statlig censur", "Rätten att fritt bilda och vara medlem i föreningar och organisationer", "Skydd mot diskriminering på grund av kön, etnisk tillhörighet, religion, funktionsnedsättning, sexuell läggning och andra grunder"],
+    "answer": 1
+},
+{
+    "question": "Vad innebär rättssäkerhet?",
+    "options": ["Rätt till en rättvis rättegång, skydd mot godtyckliga frihetsberövanden och krav på rättssäkerhetsprinciper", "Rätten att fritt uttrycka åsikter, kritisera makthavare och delta i samhällsdebatten", "Rätten att fritt ta del av information och dokument som innehas av myndigheter och andra offentliga organ", "Rätten att fritt och fredligt samlas och demonstrera för olika ändamål"],
+    "answer": 0
+},
+{
+    "question": "Vad reglerar Successionsordningen?",
+    "options": ["Den svenska tronföljden och den kungliga familjens ställning", "Skyddet för yttrandefriheten och tryckfriheten", "Rätten att fritt uttrycka åsikter och delta i samhällsdebatten", "Skydd mot diskriminering på grund av kön, etnisk tillhörighet, religion, funktionsnedsättning, sexuell läggning och andra grunder"],
+    "answer": 0
+},
+{
+    "question": "Vad är huvudfokus för offentlig sektor?",
+    "options": ["Att generera vinst", "Att tillhandahålla offentliga tjänster och uppfylla samhällsbehov", "Att maximera aktieägarnas avkastning", "Att konkurrera på en fri marknad"],
+    "answer": 1
+},
+{
+    "question": "Vad är ministerstyre?",
+    "options": ["Ett politiskt system där en minister har högsta exekutiva makt", "Ett system där en politiskt tillsatt person påverkar hantering av ärenden hos myndigheter", "En typ av styrelse i en myndighet", "Ett system där ministeriet har kontroll över alla offentliga tjänster"],
+    "answer": 1
+},
+{
+    "question": "Hur många regioner har vi i Sverige?",
+    "options": ["50", "10", "21", "29"],
+    "answer": 2
+},
+{
+    "question": "Vad är kopplingen mellan politik, juridik och förvaltning?",
+    "options": ["Det finns ingen koppling", "Politiken bestämmer juridikens ramar och förvaltningen följer dessa", "Politiken fastställer mål och beslut, juridiken skapar ramar och regler, och förvaltningen genomför och verkställer dessa beslut inom ramen för lagstiftningen", "Juridiken styr politiken och förvaltningen utför politikens beslut"],
+    "answer": 2
+},
+{
+    "question": "Vad är en viktig skillnad mellan offentlig sektor och privat sektor när det gäller ägande och drift?",
+    "options": ["Offentlig sektor ägs och drivs av privata företag medan privat sektor ägs av staten", "Både offentlig sektor och privat sektor ägs och drivs av staten", "Både offentlig sektor och privat sektor ägs och drivs av privata företag", "Offentlig sektor ägs och drivs av staten eller kommuner och landsting, medan privat sektor ägs av privata företag eller enskilda individer"],
+    "answer": 3
+},
+
+{
+    "question": "Vad är en norm?",
+    "options": ["En lag som alla måste följa", "En skriven regel som styr ett företags policy", "En oskriven regel eller standard som styr och påverkar beteendet och förväntningarna i ett samhälle eller en grupp", "En matematisk term"],
+    "answer": 2
+},
+{
+    "question": "Vilken är inte en av Sveriges grundlagar?",
+    "options": ["Regeringsformen", "Tryckfrihetsförordningen", "Konstitutionslagen", "Successionsordningen"],
+    "answer": 2
+},
+{
+    "question": "Vilken fri- och rättighet är inte grundlagsskyddad i Sverige?",
+    "options": ["Yttrandefrihet", "Tryckfrihet", "Rätt till arbete", "Religionsfrihet"],
+    "answer": 2
+},
+{
+    "question": "Vilken grundlag skyddar yttrandefriheten och inkluderar kommunikationsformer som radio, tv och internet?",
+    "options": ["Yttrandefrihetsgrundlagen", "Tryckfrihetsförordningen", "Regeringsformen", "Successionsordningen"],
+    "answer": 0
+},
+{
+    "question": "Vilken rättighet innebär skydd mot diskriminering på grund av kön, etnisk tillhörighet, religion, funktionsnedsättning, sexuell läggning och andra grunder?",
+    "options": ["Yttrandefrihet", "Tryckfrihet", "Rättssäkerhet", "Skydd mot diskriminering"],
+    "answer": 3
+}
   ]
 ];
 
