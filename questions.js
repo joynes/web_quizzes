@@ -271,187 +271,6 @@ answer: 1
    
   ],
   [
-
-
-    {
-        "question": "Vad betyder ordet demokrati?",
-        "options": ["Kunglig makt", "Folkets makt", "Presidentens makt", "Partiets makt"],
-        "answer": 1
-    },
-    {
-        "question": "Vad innebär det att all makt utgår ifrån folket? Och i vilken lag finns den formuleringen?",
-        "options": ["Alla beslut fattas av befolkningen, i Föreningslagen", "Alla beslut fattas av befolkningen, i Regeringsformen", "Regeringen bestämmer allt, i Regeringsformen", "Regeringen bestämmer allt, i Föreningslagen"],
-        "answer": 1
-    },
-    {
-        "question": "Varför är demokrati en färskvara?",
-        "options": ["Eftersom den kan bli föråldrad", "Eftersom den måste underhållas och skyddas", "Eftersom den kan ätas upp", "Eftersom den kan säljas"],
-        "answer": 1
-    },
-    {
-        "question": "Hur styrs Sverige?",
-        "options": ["Genom en diktator", "Genom en monark", "Genom en demokrati", "Genom en oligarki"],
-        "answer": 2
-    },
-    {
-        "question": "Vad innebär representativ parlamentarism?",
-        "options": ["Folket röstar direkt på lagförslag", "Folket röstar in företrädare som fattar beslut å deras vägnar", "Regeringen väljs av monarken", "Regeringen utses av ett utvalt råd"],
-        "answer": 1
-    },
-
-    {
-        "question": "Hur ser rollerna och maktfördelningen ut mellan politiker – tjänstemän – medborgare - massmedia?",
-        "options": ["Politiker bestämmer allt, tjänstemän utför, medborgare röstar, massmedia rapporterar", "Tjänstemän bestämmer allt, politiker utför, medborgare röstar, massmedia rapporterar", "Medborgare bestämmer allt, politiker utför, tjänstemän övervakar, massmedia rapporterar", "Massmedia bestämmer allt, politiker utför, tjänstemän övervakar, medborgare röstar"],
-        "answer": 0
-    },
-    {
-        "question": "Vilka är regeringens främsta uppgifter?",
-        "options": ["Stifta lagar, verkställa domar", "Stifta lagar, verkställa lagar", "Verkställa lagar, föreslå lagar", "Föreslå lagar, utöva tillsyn"],
-        "answer": 2
-    },
-    {
-        "question": "Vilka är riksdagens främsta uppgifter?",
-        "options": ["Verkställa lagar, föreslå lagar", "Stifta lagar, verkställa lagar", "Stifta lagar, kontrollera regeringen", "Föreslå lagar, utöva tillsyn"],
-        "answer": 2
-    },
-    {
-        "question": "Vilken roll har vår kung/kungafamilj?",
-        "options": ["Styra landet", "Representera landet och har ceremoniella uppgifter", "Bestämma lagar", "Verkställa lagar"],
-        "answer": 1
-    },
-    {
-        "question": "Vilka olika typer av domstolar finns det, och vilka är deras respektive uppgifter?",
-        "options": ["Tingsrätt, hovrätt, Högsta domstolen - att döma i brottmål", "Tingsrätt, hovrätt, Högsta domstolen - att utföra lagar", "Tingsrätt, hovrätt, Högsta domstolen - att föreslå lagar", "Tingsrätt, hovrätt, Högsta domstolen - att kontrollera lagar"],
-        "answer": 0
-    },
-    {
-        "question": "Hur länge har vi haft en offentlig förvaltning i Sverige?",
-        "options": ["Sedan 1900-talet", "Sedan 1800-talet", "Sedan 1700-talet", "Sedan medeltiden"],
-        "answer": 3
-    },
-    {
-        "question": "Vad kännetecknar offentlig förvaltning?",
-        "options": ["Företagsdrift", "Uppdrag att verkställa politiska beslut", "Ansvar för nationens ekonomi", "Ansvar för att skapa lagar"],
-        "answer": 1
-    },
-    {
-        "question": "Hur styrs våra myndigheter?",
-        "options": ["Av Kungen", "Av regeringen och riksdagen", "Av kommunerna", "Av EU"],
-        "answer": 1
-    },
-    {
-        "question": "Hur många kommuner och regioner har vi i Sverige?",
-        "options": ["290 kommuner och 21 regioner", "200 kommuner och 20 regioner", "300 kommuner och 25 regioner", "280 kommuner och 19 regioner"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv hur politik, juridik och förvaltning hör ihop.",
-        "options": ["Politik bestämmer lagarna, juridik tolkar dem, förvaltning verkställer dem", "Juridik bestämmer lagarna, politik tolkar dem, förvaltning verkställer dem", "Förvaltning bestämmer lagarna, juridik tolkar dem, politik verkställer dem", "Juridik bestämmer lagarna, förvaltning tolkar dem, politik verkställer dem"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv några viktiga skillnader mellan offentlig sektor och privat sektor?",
-        "options": ["Offentlig sektor finansieras av skatter, privat sektor av vinst", "Offentlig sektor styrs av regeringen, privat sektor av kunderna", "Offentlig sektor ägs av staten, privat sektor ägs av aktieägare", "Alla ovanstående"],
-        "answer": 3
-    },
-    {
-        "question": "Vad är en norm?",
-        "options": ["En lag", "En tradition", "Ett oskrivet samhällsregel", "Ett kontraktsförhållande"],
-        "answer": 2
-    },
-    {
-        "question": "Vilka är våra grundlagar?",
-        "options": ["Brottsbalken, Skollagen, Arbetsmiljölagen", "Regeringsformen, Successionsordningen, Tryckfrihetsförordningen, Yttrandefrihetsgrundlagen", "Brottsbalken, Skollagen, Tryckfrihetsförordningen, Yttrandefrihetsgrundlagen", "Regeringsformen, Brottsbalken, Skollagen, Arbetsmiljölagen"],
-        "answer": 1
-    },
-    {
-        "question": "Vilka fri- och rättigheter är grundlagsskyddade?",
-        "options": ["Rätt till arbete, rätt till bostad, rätt till utbildning", "Rätt till yttrandefrihet, tryckfrihet, religionsfrihet", "Rätt till arbete, rätt till yttrandefrihet, tryckfrihet", "Rätt till bostad, rätt till utbildning, religionsfrihet"],
-        "answer": 1
-    },
-    {
-        "question": "Hur ändrar man en grundlag?",
-        "options": ["Genom enkel majoritet i riksdagen", "Genom enkel majoritet i regeringen", "Genom två på varandra följande beslut av riksdagen med ett val emellan", "Genom folkomröstning"],
-        "answer": 2
-    },
-    {
-        "question": "Ge exempel på tre grundlagsskyddade fri- och rättigheter.",
-        "options": ["Rätt till arbete, rätt till bostad, rätt till utbildning", "Rätt till yttrandefrihet, tryckfrihet, religionsfrihet", "Rätt till arbete, rätt till yttrandefrihet, tryckfrihet", "Rätt till bostad, rätt till utbildning, religionsfrihet"],
-        "answer": 1
-    },
-    {
-        "question": "Ge exempel på tjänster och produkter som upphandlas inom offentlig verksamhet.",
-        "options": ["Hotellnätter, försäkringar, kontorsmaterial", "Lyxbilar, privatflyg, lyxyachter", "Privatbostäder, privatjordbruk, privatläkare", "Personliga gåvor, underhållning, alkohol"],
-        "answer": 0
-    },
-    {
-        "question": "Vad innebär offentlighetsprincipen?",
-        "options": ["Allmänheten har rätt att ta del av myndigheters handlingar", "Allmänheten har rätt att delta i politiska möten", "Allmänheten har rätt att rösta i allmänna val", "Allmänheten har rätt att kritisera regeringen"],
-        "answer": 0
-    },
-    {
-        "question": "Vad betyder meddelarfrihet? I vilken lag regleras det?",
-        "options": ["Rätten att tala fritt i media, regleras i Tryckfrihetsförordningen", "Rätten att tala fritt i media, regleras i Yttrandefrihetsgrundlagen", "Rätten att ge information till media om missförhållanden på arbetsplatsen, regleras i Tryckfrihetsförordningen", "Rätten att ge information till media om missförhållanden på arbetsplatsen, regleras i Yttrandefrihetsgrundlagen"],
-        "answer": 2
-    },
-    {
-        "question": "Vad innebär förbudet mot ministerstyre som vi har i Sverige?",
-        "options": ["Ministrar får inte ingripa i enskilda ärenden hos myndigheterna", "Ministrar får inte ingripa i politiska debatter", "Ministrar får inte ingripa i riksdagens arbete", "Ministrar får inte ingripa i kungens arbete"],
-        "answer": 0
-    },
-    {
-        "question": "Vilka principer är utgångspunkten för värdegrunden i offentlig förvaltning?",
-        "options": ["Demokrati, laglighet, effektivitet, objektivitet, likhet, transparens", "Marknadsstyrning, vinstmaximering, konkurrens, effektivitet", "Tradition, konsensus, homogenitet, stabilitet", "Innovation, risktagande, dynamik, kreativitet"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv vad kraven på effektivitet och service innebär i praktiken.",
-        "options": ["Myndigheter ska sträva efter att använda resurser på bästa sätt och ge god service till medborgarna", "Myndigheter ska minimera kostnader oavsett konsekvenserna", "Myndigheter ska maximera intäkter oavsett konsekvenserna", "Myndigheter ska fokusera på att bygga en stark organisation oavsett kostnader"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv vad kraven på objektivitet och saklighet och likhetskrav innebär i praktiken.",
-        "options": ["Myndigheter ska behandla alla ärenden och personer lika och basera beslut på fakta", "Myndigheter ska behandla ärenden och personer baserat på deras sociala status", "Myndigheter ska behandla ärenden och personer baserat på politiska preferenser", "Myndigheter ska behandla ärenden och personer baserat på personliga relationer"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv vad likhetskrav innebär i praktiken.",
-        "options": ["Alla ska behandlas lika oavsett personliga förhållanden", "Alla ska behandlas lika baserat på social status", "Alla ska behandlas lika baserat på politiska preferenser", "Alla ska behandlas lika baserat på personliga relationer"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv vad kravet på respekt innebär i praktiken.",
-        "options": ["Alla människor ska behandlas med värdighet och respekt", "Respekt krävs endast i hierarkiska relationer", "Respekt ska endast ges till dem med hög social status", "Respekt ska endast ges till dem med politiska kontakter"],
-        "answer": 0
-    },
-    {
-        "question": "Varför är kravet på transparens så viktigt?",
-        "options": ["För att skapa förtroende och möjliggöra granskning av offentliga handlingar", "För att skydda statens hemligheter", "För att undvika kritik", "För att skapa konkurrens mellan myndigheter"],
-        "answer": 0
-    },
-    {
-        "question": "Ge exempel på ett yrke/yrkeskår som omfattas av särskilda sekretessregler.",
-        "options": ["Läkare", "Journalister", "Politiker", "Kockar"],
-        "answer": 0
-    },
-    {
-        "question": "Beskriv begreppet samhällsnytta?",
-        "options": ["Något som gynnar samhället som helhet", "Något som gynnar en individ", "Något som gynnar en specifik grupp", "Något som gynnar företag"],
-        "answer": 0
-    },
-    {
-        "question": "Vad innebär begreppet respekt och service?",
-        "options": ["Att visa hänsyn och hjälpa andra", "Att dominera och styra andra", "Att ignorera andra och fokusera på egna mål", "Att manipulera andra för personlig vinning"],
-        "answer": 0
-    },
-    {
-        "question": "Vad innebär begreppen legalitet, objektivitet?",
-        "options": ["Att följa lagen och behandla alla ärenden och personer på samma sätt", "Att bryta lagen för att uppnå personliga mål", "Att behandla ärenden och personer baserat på personliga preferenser", "Att behandla ärenden och personer baserat på social status"],
-        "answer": 0
-    }
-],
-  [
-
 {
     "question": "Vad betyder ordet demokrati?",
     "options": ["En form av monarki", "En styrelseform där makten ligger hos folket", "En styrelseform där en enda person har all makt", "En styrelseform där religionen styr"],
@@ -899,7 +718,115 @@ answer: 1
     }
   ],
   [
+    {
+        question: "Vad innebär likhetskravet i praktiken inom offentlig förvaltning?",
+        options: ["Alla medborgare ska betala lika mycket skatt", "Kandidater till en tjänst bedöms utifrån deras kompetens, erfarenhet och lämplighet", "Offentliga tjänster bör tillhandahållas på olika sätt beroende på medborgarens inkomst", "Baserat på kön eller etnicitet väljs kandidater till en tjänst"],
+        answer: 1
+    },
+    {
+        question: "Vad innebär kravet på respekt i offentlig förvaltning?",
+        options: ["Alla människor ska bemötas med värdighet, uppmärksamhet och ömsesidig respekt", "Respekt innebär att man ska vara rädd för myndigheterna", "Kravet på respekt innebär att tjänstemän alltid har rätt", "Kravet på respekt betyder att man ska behandla alla olika beroende på deras status eller position"],
+        answer: 0
+    },
+    {
+        question: "Varför är kravet på transparens så viktigt inom offentlig förvaltning?",
+        options: ["Transparens främjar öppenhet och tillit, bygger förtroende hos medborgarna och säkerställer ansvarsskyldighet", "Transparens är viktigt för att dölja offentliga åtgärder och beslut", "Transparens är bara viktigt för privatsektorn, inte för offentlig förvaltning", "Transparens är viktigt eftersom det minskar insynen i offentlig förvaltning"],
+        answer: 0
+    },
 
+    {
+        question: "Hur kan likhetskravet praktiseras under en rekryteringsprocess i offentlig förvaltning?",
+        options: ["Genom att rekrytera baserat på vänskap", "Genom att rekrytera baserat på kön och etnicitet", "Genom att rekrytera baserat på kompetens, erfarenhet och lämplighet för tjänsten", "Genom att rekrytera baserat på ålder och religion"],
+        answer: 2
+    },
+    {
+        question: "Vilket påstående bäst beskriver kravet på respekt inom offentlig förvaltning?",
+        options: ["Respekt innebär att tjänstemän ska be om ursäkt för sina handlingar", "Respekt innebär att bara respektera dem som har högre positioner", "Respekt innebär att bemöta alla med värdighet, uppmärksamhet och ömsesidig respekt", "Respekt innebär att favorisera vissa individer"],
+        answer: 2
+    },
+    {
+        question: "Varför bidrar kravet på transparens till förtroende hos medborgarna inom offentlig förvaltning?",
+        options: ["Eftersom det döljer offentliga beslut", "Eftersom det gör det möjligt för korruption", "Eftersom det skapar osäkerhet", "Eftersom det främjar öppenhet, tillåter insyn och säkerställer ansvarsskyldighet"],
+        answer: 3
+    },
 
-  ]
+    {
+        question: "Vilken faktor får inte vara avgörande vid rekrytering enligt likhetskravet inom offentlig förvaltning?",
+        options: ["Kompetens", "Erfarenhet", "Lämplighet för tjänsten", "Etnicitet"],
+        answer: 3
+    },
+    {
+        question: "Vad innebär ett respektfullt bemötande av en medborgare i offentlig förvaltning?",
+        options: ["Att ignorera medborgarens behov och frågor", "Att ge vag eller felaktig information", "Att lyssna aktivt på deras behov och frågor, ge tydlig information och vara tillmötesgående", "Att ge medborgaren minsta möjliga tid och uppmärksamhet"],
+        answer: 2
+    },
+    {
+        question: "Vad är en konsekvens av bristande transparens inom offentlig förvaltning?",
+        options: ["Ökad tillit hos medborgarna", "Förbättrad ansvarsskyldighet", "Minskad risk för korruption", "Ökad risk för missbruk av makt"],
+        answer: 3
+    }
+  ],
+  [
+
+    {
+        question: "Vilket yrke är ett exempel på ett som omfattas av särskilda sekretessregler?",
+        options: ["Lärare", "Busschaufför", "Advokat", "Arkitekt"],
+        answer: 2
+    },
+    {
+        question: "Vad syftar begreppet 'samhällsnytta' på?",
+        options: ["Den positiva effekten en verksamhet har för individens vinst", "Den negativa effekten en verksamhet har för samhället", "Den positiva effekten en verksamhet har för samhället", "Ingen av de ovan"],
+        answer: 2
+    },
+    {
+        question: "Vad handlar 'respekt' om i offentlig förvaltning?",
+        options: ["Att ignorera andra människors behov", "Att behandla andra med hänsyn och tolerans", "Att prioritera egna behov över andra", "Att visa intolerans mot olikheter"],
+        answer: 1
+    },
+    {
+        question: "Vad innebär begreppet 'legalitet' i offentlig förvaltning?",
+        options: ["Att agera enligt gällande lagar och föreskrifter", "Att bryta gällande lagar och föreskrifter", "Att ignorera gällande lagar och föreskrifter", "Inget av ovanstående"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär begreppet 'service' i offentlig förvaltning?",
+        options: ["Att ignorera andras behov och önskemål", "Att tillhandahålla tjänster eller assistans till andra för att möta deras behov och önskemål", "Att vara otillgänglig och oprofessionell", "Inget av ovanstående"],
+        answer: 1
+    },
+    {
+        question: "Vad innebär begreppet 'objektivitet' i offentlig förvaltning?",
+        options: ["Att fatta beslut baserat på personliga åsikter", "Att påverka beslut med partipolitik", "Att fatta beslut baserat på faktiska och relevanta uppgifter", "Att fatta beslut baserat på irrelevanta uppgifter"],
+        answer: 2
+    },
+    {
+        question: "Vad innebär begreppet 'saklighet' i offentlig förvaltning?",
+        options: ["Att fatta beslut baserat på irrelevanta uppgifter", "Att påverka beslut med personliga intressen", "Att göra bedömningar baserat på objektiva kriterier", "Inget av ovanstående"],
+        answer: 2
+    },
+    {
+        question: "Vad innebär begreppet 'likhetskrav' i offentlig förvaltning?",
+        options: ["Att behandla alla människor olika", "Att tillämpa en diskriminerande policy", "Att behandla alla människor lika och inte diskriminera på grund av kön, etnicitet, religion, funktionsnedsättning eller annan grund", "Att gynna eller missgynna någon specifik grupp"],
+        answer: 2
+    },
+    {
+        question: "Vilket yrke omfattas av särskilda sekretessregler?",
+        options: ["Läkare", "Advokater", "Poliser", "Lärare"],
+        answer: 1
+    },
+    {
+        question: "Vad är en betydande aspekt av samhällsnytta?",
+        options: ["Att främja social rättvisa och skydda sårbara grupper", "Att främja ojämlikhet och social exkludering", "Att främja korruption och maktmissbruk", "Att främja miljöskador och resursslöseri"],
+        answer: 0
+    },
+    {
+        question: "Vad innebär begreppet 'respekt' i offentlig förvaltning?",
+        options: ["Att behandla andra med förakt och intolerans", "Att behandla andra med hänsyn, värdering och tolerans", "Att ignorera och misskänna olikheter", "Inget av ovanstående"],
+        answer: 1
+    },
+    {
+        question: "Vad innebär begreppet 'legalitet' i offentlig förvaltning?",
+        options: ["Att agera i strid med gällande lagar och föreskrifter", "Att agera utan hänsyn till gällande lagar och föreskrifter", "Att agera enligt gällande lagar och föreskrifter", "Inget av ovanstående"],
+        answer: 2
+    }
+]
 ];
