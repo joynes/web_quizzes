@@ -769,6 +769,59 @@ answer: 1
     "question": "Vilken rättighet innebär skydd mot diskriminering på grund av kön, etnisk tillhörighet, religion, funktionsnedsättning, sexuell läggning och andra grunder?",
     "options": ["Yttrandefrihet", "Tryckfrihet", "Rättssäkerhet", "Skydd mot diskriminering"],
     "answer": 3
+}, ],
+[
+
+{
+    "question": "Vem kan initiera en ändring av en grundlag?",
+    "options": ["Endast regeringen", "Endast riksdagen", "Riksdagen, regeringen eller en medborgarförening", "Endast en medborgarförening"],
+    "answer": 2
+},
+{
+    "question": "Vilket utskott gör en konstitutionell prövning av ett förslag till ändring av en grundlag?",
+    "options": ["Finansutskottet", "Konstitutionsutskottet", "Utbildningsutskottet", "Försvarsutskottet"],
+    "answer": 1
+},
+{
+    "question": "Vilken fri- och rättighet är inte grundlagsskyddad i Sverige?",
+    "options": ["Informationsfrihet", "Rätt till en rättvis rättegång", "Skydd mot diskriminering", "Rätt till arbete"],
+    "answer": 3
+},
+{
+    "question": "Vilken produkt eller tjänst är typiskt inte upphandlad inom offentlig verksamhet?",
+    "options": ["Sanering", "Bygg- och anläggning", "Hyllvaror", "Privat hushållsrengöring"],
+    "answer": 3
+},
+{
+    "question": "Hur många tredjedelars majoritet krävs för att riksdagen ska anta ett förslag till ändring av en grundlag?",
+    "options": ["En tredjedel", "Hälften", "Två tredjedelar", "Tre fjärdedelar"],
+    "answer": 2
+},
+
+{
+    "question": "Vad händer efter att förslaget om ändring av en grundlag har antagits av riksdagen?",
+    "options": ["Det skickas till regeringen för prövning", "Det implementeras omedelbart", "Det skickas till EU för godkännande", "Det sänds till folkomröstning"],
+    "answer": 0
+},
+{
+    "question": "Vad innebär informationsfrihet?",
+    "options": ["Rätten att publicera vilken information som helst", "Rätten att fritt ta del av information och dokument som innehas av myndigheter och andra offentliga organ", "Rätten att inte dela med sig av sin personliga information", "Rätten att ha tillgång till allt innehåll på internet"],
+    "answer": 1
+},
+{
+    "question": "Vad innebär rättssäkerhet?",
+    "options": ["Rätt till en rättvis rättegång, skydd mot godtyckliga frihetsberövanden och krav på rättssäkerhetsprinciper", "Rätten att bli behandlad rättvist av polisen", "Rätten att ha en säker bostad", "Rätten att inte bli stämd"],
+    "answer": 0
+},
+{
+    "question": "Vilken grundlagsskyddad rättighet skyddar mot diskriminering?",
+    "options": ["Demonstrationsfrihet", "Religionsfrihet", "Skydd mot diskriminering", "Yttrandefrihet"],
+    "answer": 2
+},
+{
+    "question": "Vilken tjänst är typiskt upphandlad inom offentlig verksamhet?",
+    "options": ["Fastighetsmäklartjänster", "Hälso- och sjukvårdstjänster", "Bilförsäljning", "Restaurangverksamhet"],
+    "answer": 1
 }
   ]
 ];
@@ -787,7 +840,7 @@ function showMenu() {
   
   stages.forEach((stage, index) => {
     let button = document.createElement("button");
-    button.textContent = "Stage " + (index + 1);
+    button.textContent = "Stage " + (index + 1) + " (" + "0" + "/" + stages[index].length + ")";
     button.addEventListener('click', () => startStage(index));
     stagesElement.appendChild(button);
   });
