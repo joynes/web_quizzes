@@ -18,6 +18,9 @@ function showMenu() {
    if (bestScores[index]) {
         // there is a best score for this stage, so show it next to the stage
         bestscore = bestScores[index];
+        if (stages[index].length === bestScores[index]) {
+                button.classList.add("best-score");
+        }
       }
     button.textContent = "Stage " + (index + 1) + " (" + bestscore + "/" + stages[index].length + ")";
     button.addEventListener('click', () => startStage(index));

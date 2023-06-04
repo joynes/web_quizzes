@@ -897,5 +897,9 @@ answer: 1
         options: ["Offentlig förvaltning ska vara öppen och transparent i sin verksamhet och beslutsfattande", "Offentlig förvaltning ska vara stängd och ogenomskinlig", "Offentlig förvaltning behöver inte vara öppen eller transparent", "Öppenhet och transparens har ingen betydelse inom offentlig förvaltning"],
         answer: 0
     }
+  ],
+  [
+
+
   ]
 ];
