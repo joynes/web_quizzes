@@ -1,0 +1,11 @@
+{
+  "name": "web-quizzes-web-release",
+  "private": true,
+  "scripts": {
+    "test:browser": "node scripts/test-web-quizzes-browser.cjs",
+    "test:input": "node scripts/test-web-quizzes-input.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
